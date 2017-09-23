@@ -1,1 +1,147 @@
 /*style sheet*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#page {
+	min-height: 100%;
+	position: relative;
+	display:flex;
+	flex-direction: column;
+	background-image: url("images/elephant_pattern-.jpg");
+	background-repeat: repeat;
+}
+
+#daninfo {
+	display: flex;
+	flex-direction: row;
+	background-color: rgba(211,211,211, 0.95);
+	margin-top: -1%;
+	margin-left: -1%;
+	margin-right: -1%;
+	padding-left: 2%;
+	padding-top:1%;
+	padding-bottom: 1%;
+	
+}
+
+h1 span {
+	background-color: white;
+	margin-left: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+#name {
+	font-family: futura;
+	font-size: 200%;
+	margin-top: -1%;
+	margin-bottom: 1%;
+	margin-left:-1%;
+	margin-right: -1%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#aboutmetitle {
+	font-family: futura;
+}
+
+#dan {
+	height: auto;
+	width: 100%;
+}
+
+#about {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	background-color: white;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+#aboutme {
+	width: 50%;
+	font-family: georgia;
+}
+
+.link {
+	font-size: 100%;
+	font-family: futura;
+	color: black;
+	text-decoration: none;
+}
+
+#footertext {
+	margin-top: 12%;
+	font-family: futura;
+	text-align: center;
+
+}
+
+p span {
+	background-color: white;
+	padding-left: 1%;
+	padding-right: 1%;
+	position: relative;
+}
+
+#resume {
+	background-color: rgba(211,211,211, 0.95); 
+}
+
+#resume h1 {
+	display: flex;
+	font-family: futura;
+}
+
+#innerresumetext {
+	background-color: white;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-left: 1%;
+	
+}
+
+#footertextresume {
+	font-family: futura;
+	text-align: center;
+	margin-top: 3%;
+}
+h2 {
+	font-family: futura;
+}
+
+h3 {
+	font-family: georgia;
+}
+
+#innerresumetext li {
+	font-family: georgia;
+}
+
+#innerresumetext p {
+	font-family: georgia;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+h1 span a {
+	text-decoration:none;
+	color: black;
+	
+}

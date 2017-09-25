@@ -18,6 +18,7 @@ html, body {
 #daninfo {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	background-color: rgba(211,211,211, 0.95);
 	margin-top: -1%;
 	margin-left: -1%;
@@ -51,12 +52,16 @@ h1 span {
 
 #dan {
 	height: auto;
-	width: 100%;
+	width: 97%;
+	display: flex;
+	flex: 1;
 }
 
 #about {
 	display: flex;
-	flex-direction: row;
+	flex: 2;
+	flex-direction:row;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 	width: 100%;
 	background-color: white;
@@ -144,4 +149,8 @@ h1 span a {
 	text-decoration:none;
 	color: black;
 	
+}
+
+.nobullet {
+	list-style: none;
 }

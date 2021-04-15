@@ -24,11 +24,15 @@ const NameText = styled.h1`
   label: NameText;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-variant: normal;
-  font-size: 91px; 
+  font-size: 64px; 
   font-style: italic; 
   font-weight: 900;
   color: #ADF7B6;
   margin-bottom: 0px;
+
+  @media (min-width: 768px) {
+    font-size: 92px;  
+  }
 `;
 
 const PositionText = styled.h2`
@@ -36,8 +40,12 @@ const PositionText = styled.h2`
   label: PositionText;
   margin-top: 0px;
   padding-top: 0px;
-  font-size: 24px;
+  font-size: 18px;
   margin-top: 12px;
+
+  @media (min-width: 768px) {
+    font-size: 24px;  
+  }
 `;
 
 const LogosContainer = styled.div`
